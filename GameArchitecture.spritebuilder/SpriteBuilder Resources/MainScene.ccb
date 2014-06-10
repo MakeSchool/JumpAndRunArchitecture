@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>22</integer>
+	<integer>24</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -24,9 +24,9 @@
 	<key>fileVersion</key>
 	<integer>4</integer>
 	<key>gridspaceHeight</key>
-	<integer>64</integer>
+	<integer>32</integer>
 	<key>gridspaceWidth</key>
-	<integer>64</integer>
+	<integer>32</integer>
 	<key>guides</key>
 	<array/>
 	<key>joints</key>
@@ -132,7 +132,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/Background/bg.png</string>
+									<string>ArchitectureAssets/bg.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -318,7 +318,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -435,7 +435,7 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>172</real>
+									<real>171</real>
 									<real>72</real>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -474,7 +474,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -628,7 +628,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -782,7 +782,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -825,7 +825,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk02.png</string>
+												<string>ArchitectureAssets/p1_walk01.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -843,7 +843,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk03.png</string>
+												<string>ArchitectureAssets/p1_walk02.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -861,7 +861,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk04.png</string>
+												<string>ArchitectureAssets/p1_walk03.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -879,7 +879,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk05.png</string>
+												<string>ArchitectureAssets/p1_walk04.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -897,7 +897,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk06.png</string>
+												<string>ArchitectureAssets/p1_walk05.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -915,7 +915,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk07.png</string>
+												<string>ArchitectureAssets/p1_walk06.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -933,7 +933,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk08.png</string>
+												<string>ArchitectureAssets/p1_walk06.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -951,7 +951,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk09.png</string>
+												<string>ArchitectureAssets/p1_walk08.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -969,7 +969,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk10.png</string>
+												<string>ArchitectureAssets/p1_walk09.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -987,7 +987,7 @@
 											<integer>7</integer>
 											<key>value</key>
 											<array>
-												<string>ArchitectureAssets/PlayerMovement/p1_walk11.png</string>
+												<string>ArchitectureAssets/p1_walk10.png</string>
 												<string>Use regular file</string>
 											</array>
 										</dict>
@@ -1024,7 +1024,7 @@
 							<key>collisionMask</key>
 							<array/>
 							<key>collisionType</key>
-							<string></string>
+							<string>hero</string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -1137,7 +1137,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string></string>
+									<string>ArchitectureAssets/p1_walk10.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1254,8 +1254,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>270</real>
-									<real>151</real>
+									<real>209.5</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1293,7 +1293,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1408,8 +1408,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>305</real>
-									<real>151</real>
+									<real>244.5</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1447,7 +1447,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1562,8 +1562,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>340</real>
-									<real>151</real>
+									<real>279.5</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1601,7 +1601,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1716,8 +1716,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>374</real>
-									<real>151</real>
+									<real>315</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1755,7 +1755,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -1870,8 +1870,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>408</real>
-									<real>151</real>
+									<real>350</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1909,7 +1909,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -2024,8 +2024,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>442</real>
-									<real>151</real>
+									<real>385</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2063,7 +2063,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -2178,8 +2178,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>477</real>
-									<real>151</real>
+									<real>420</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2217,7 +2217,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -2332,8 +2332,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>512</real>
-									<real>151</real>
+									<real>455</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2371,7 +2371,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -2486,8 +2486,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>546</real>
-									<real>151</real>
+									<real>490</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2525,7 +2525,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -2640,8 +2640,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>581</real>
-									<real>151</real>
+									<real>525</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2679,7 +2679,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -2794,8 +2794,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>616</real>
-									<real>151</real>
+									<real>560</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2833,7 +2833,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -2948,8 +2948,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>650</real>
-									<real>151</real>
+									<real>595</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2987,7 +2987,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -3102,8 +3102,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>685</real>
-									<real>152</real>
+									<real>630</real>
+									<real>145.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -3141,7 +3141,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArchitectureAssets/GameWorld/grass.png</string>
+									<string>ArchitectureAssets/grass.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -3158,6 +3158,219 @@
 								</array>
 							</dict>
 						</array>
+					</dict>
+					<dict>
+						<key>UUID</key>
+						<integer>22</integer>
+						<key>animatedProperties</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>spriteFrame</key>
+								<dict>
+									<key>keyframes</key>
+									<array>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.0</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/flagYellow2.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.1666666716337204</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/flagYellow.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+									</array>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>type</key>
+									<integer>7</integer>
+								</dict>
+							</dict>
+						</dict>
+						<key>baseClass</key>
+						<string>CCSprite</string>
+						<key>children</key>
+						<array/>
+						<key>customClass</key>
+						<string></string>
+						<key>displayName</key>
+						<string>CCSprite</string>
+						<key>memberVarAssignmentName</key>
+						<string>_flag</string>
+						<key>memberVarAssignmentType</key>
+						<integer>1</integer>
+						<key>physicsBody</key>
+						<dict>
+							<key>affectedByGravity</key>
+							<true/>
+							<key>allowsRotation</key>
+							<true/>
+							<key>bodyShape</key>
+							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string>flag</string>
+							<key>cornerRadius</key>
+							<real>0.0</real>
+							<key>density</key>
+							<real>1</real>
+							<key>dynamic</key>
+							<false/>
+							<key>elasticity</key>
+							<real>0.30000001192092896</real>
+							<key>friction</key>
+							<real>0.30000001192092896</real>
+							<key>points</key>
+							<array>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+								</array>
+								<array>
+									<real>0.0</real>
+									<real>35</real>
+								</array>
+								<array>
+									<real>35</real>
+									<real>35</real>
+								</array>
+								<array>
+									<real>35</real>
+									<real>0.0</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>35</real>
+										<real>0.0</real>
+									</array>
+									<array>
+										<real>35</real>
+										<real>35</real>
+									</array>
+									<array>
+										<real>0.0</real>
+										<real>35</real>
+									</array>
+									<array>
+										<real>0.0</real>
+										<real>0.0</real>
+									</array>
+								</array>
+							</array>
+						</dict>
+						<key>properties</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>name</string>
+								<key>type</key>
+								<string>StringSimple</string>
+								<key>value</key>
+								<string></string>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>625.5</real>
+									<real>177.5</real>
+									<integer>0</integer>
+									<integer>0</integer>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>anchorPoint</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>0.5</real>
+									<real>0.5</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>scale</string>
+								<key>type</key>
+								<string>ScaleLock</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<false/>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>baseValue</key>
+								<array>
+									<string>ArchitectureAssets/flagYellow.png</string>
+									<string>Use regular file</string>
+								</array>
+								<key>name</key>
+								<string>spriteFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string>ArchitectureAssets/flagYellow.png</string>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>color</string>
+								<key>type</key>
+								<string>Color3</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<real>1</real>
+									<real>1</real>
+								</array>
+							</dict>
+						</array>
+						<key>seqExpanded</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -3199,8 +3412,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>3</real>
+							<real>1.5</real>
 							<integer>2</integer>
 							<integer>2</integer>
 						</array>
@@ -3249,6 +3462,8 @@
 						<real>0.5</real>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -3290,8 +3505,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>3</real>
-					<real>1.5</real>
+					<real>1</real>
+					<real>1</real>
 					<integer>2</integer>
 					<integer>2</integer>
 				</array>
@@ -3409,7 +3624,7 @@
 		</dict>
 	</array>
 	<key>stageBorder</key>
-	<integer>3</integer>
+	<integer>1</integer>
 	<key>stageColor</key>
 	<integer>0</integer>
 </dict>

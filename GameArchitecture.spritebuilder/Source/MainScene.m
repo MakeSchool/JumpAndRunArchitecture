@@ -12,8 +12,14 @@
 
 @implementation MainScene {
   CCSprite *_character;
+  CCSprite *_flag;
   CCPhysicsNode *_physicsNode;
   BOOL _jumped;
+}
+
+- (void)didLoadFromCCB {
+  _flag.physicsBody.sensor = TRUE;
+  _physicsNode.collisionDelegate = self;
 }
 
 - (void)onEnterTransitionDidFinish {
@@ -21,7 +27,7 @@
   
   _character.physicsBody.body.body->velocity_func = playerUpdateVelocity;
   CCActionFollow *follow = [CCActionFollow actionWithTarget:_character worldBoundary:_physicsNode.boundingBox];
-  [self runAction:follow];
+  [_physicsNode runAction:follow];
   
   self.userInteractionEnabled = YES;
 }
@@ -53,6 +59,17 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
 	body->t = 0.0f;
   
 	body->v.x = 40.f;
+}
+
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero flag:(CCNode *)flag {
+  self.paused = YES;
+  
+  CCNode *popup = [CCBReader load:@"WinPopup"];
+  popup.positionType = CCPositionTypeNormalized;
+  popup.position = ccp(0.5, 0.5);
+  [self addChild:popup];
+  
+  return TRUE;
 }
 
 @end

@@ -80,62 +80,82 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>ArchitectureAssets/GameWorld/grass.png</key>
+		<key>ArchitectureAssets</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>ArchitectureAssets/bg.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk01.png</key>
+		<key>ArchitectureAssets/flagYellow.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk02.png</key>
+		<key>ArchitectureAssets/flagYellow2.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk03.png</key>
+		<key>ArchitectureAssets/grass.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk04.png</key>
+		<key>ArchitectureAssets/p1_walk01.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk05.png</key>
+		<key>ArchitectureAssets/p1_walk02.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk06.png</key>
+		<key>ArchitectureAssets/p1_walk03.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk07.png</key>
+		<key>ArchitectureAssets/p1_walk04.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk08.png</key>
+		<key>ArchitectureAssets/p1_walk05.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk09.png</key>
+		<key>ArchitectureAssets/p1_walk06.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk10.png</key>
+		<key>ArchitectureAssets/p1_walk07.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
-		<key>ArchitectureAssets/PlayerMovement/p1_walk11.png</key>
+		<key>ArchitectureAssets/p1_walk08.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>2</integer>
+		</dict>
+		<key>ArchitectureAssets/p1_walk09.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>2</integer>
+		</dict>
+		<key>ArchitectureAssets/p1_walk10.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>2</integer>
+		</dict>
+		<key>ArchitectureAssets/p1_walk11.png</key>
 		<dict>
 			<key>scaleFrom</key>
 			<integer>2</integer>

@@ -13,6 +13,7 @@
 @implementation MainScene {
   CCSprite *_character;
   CCPhysicsNode *_physicsNode;
+  BOOL _jumped;
 }
 
 - (void)onEnterTransitionDidFinish {
@@ -27,8 +28,16 @@
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
   [_character.physicsBody.chipmunkObjects[0] eachArbiter:^(cpArbiter *arbiter) {
-    [_character.physicsBody applyImpulse:ccp(0, 1200)];
+    if (!_jumped) {
+      [_character.physicsBody applyImpulse:ccp(0, 2000)];
+      _jumped = TRUE;
+      [self performSelector:@selector(resetJump) withObject:nil afterDelay:0.3f];
+    }
   }];
+}
+
+- (void)resetJump {
+  _jumped = FALSE;
 }
 
 static void

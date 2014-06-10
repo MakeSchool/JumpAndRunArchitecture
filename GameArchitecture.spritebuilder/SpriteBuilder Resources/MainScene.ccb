@@ -2656,8 +2656,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>3</real>
-							<real>1.5</real>
+							<real>1</real>
+							<real>1</real>
 							<integer>2</integer>
 							<integer>2</integer>
 						</array>
@@ -2694,7 +2694,7 @@
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>-100</real>
+							<real>-200</real>
 						</array>
 					</dict>
 					<dict>
@@ -2747,8 +2747,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>1</real>
-					<real>1</real>
+					<real>3</real>
+					<real>1.5</real>
 					<integer>2</integer>
 					<integer>2</integer>
 				</array>
@@ -2847,7 +2847,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.10000000149011612</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

@@ -18,8 +18,6 @@
 - (void)onEnterTransitionDidFinish {
   [super onEnterTransitionDidFinish];
   
-  _physicsNode.debugDraw = YES;
-  
   _character.physicsBody.body.body->velocity_func = playerUpdateVelocity;
   CCActionFollow *follow = [CCActionFollow actionWithTarget:_character worldBoundary:_physicsNode.boundingBox];
   [self runAction:follow];
@@ -29,7 +27,7 @@
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
   [_character.physicsBody.chipmunkObjects[0] eachArbiter:^(cpArbiter *arbiter) {
-    [_character.physicsBody applyImpulse:ccp(0, 1000)];
+    [_character.physicsBody applyImpulse:ccp(0, 1200)];
   }];
 }
 

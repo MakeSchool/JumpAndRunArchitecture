@@ -20,7 +20,7 @@
 }
 
 - (void)didLoadFromCCB {
-  _flag.physicsBody.sensor = TRUE;
+  _flag.physicsBody.sensor = YES;
   _physicsNode.collisionDelegate = self;
 }
 

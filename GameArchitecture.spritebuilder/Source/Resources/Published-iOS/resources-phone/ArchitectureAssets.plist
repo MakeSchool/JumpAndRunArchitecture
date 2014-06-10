@@ -46,7 +46,7 @@
 		<key>ArchitectureAssets/flagYellow.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{131, 74}, {34, 35}}</string>
+			<string>{{131, 75}, {34, 35}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -59,7 +59,7 @@
 		<key>ArchitectureAssets/flagYellow2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{148, 111}, {34, 35}}</string>
+			<string>{{148, 112}, {34, 35}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -72,15 +72,15 @@
 		<key>ArchitectureAssets/grass.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{150, 37}, {35, 35}}</string>
+			<string>{{150, 37}, {36, 36}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {35, 35}}</string>
+			<string>{{0, 0}, {36, 36}}</string>
 			<key>sourceSize</key>
-			<string>{35, 35}</string>
+			<string>{36, 36}</string>
 		</dict>
 		<key>ArchitectureAssets/p1_walk01.png</key>
 		<dict>

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		629FD11F1947593000B2EE4F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629FD11E1947593000B2EE4F /* GLKit.framework */; };
+		629FD1281947A81800B2EE4F /* WinPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD1271947A81800B2EE4F /* WinPopup.m */; };
+		629FD12F1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD12E1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m */; };
+		629FD1321947B75C00B2EE4F /* Level2.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD1311947B75C00B2EE4F /* Level2.m */; };
+		629FD1351947B8BA00B2EE4F /* Level3.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD1341947B8BA00B2EE4F /* Level3.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -26,7 +30,7 @@
 		B7378978180762440076A88C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B737896E180762440076A88C /* Default@2x.png */; };
 		B73789871807631A0076A88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73789851807631A0076A88C /* main.m */; };
 		B737898A1807642B0076A88C /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B737894B180761A90076A88C /* libcocos2d.a */; };
-		B7378994180767190076A88C /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
+		B7378994180767190076A88C /* Level1.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* Level1.m */; };
 		B77F1B3217B978D7009739AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3117B978D7009739AE /* QuartzCore.framework */; };
 		B77F1B3417B978D7009739AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3317B978D7009739AE /* OpenGLES.framework */; };
 		B77F1B3617B978D7009739AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
@@ -57,6 +61,14 @@
 
 /* Begin PBXFileReference section */
 		629FD11E1947593000B2EE4F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		629FD1261947A81800B2EE4F /* WinPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinPopup.h; path = Source/WinPopup.h; sourceTree = "<group>"; };
+		629FD1271947A81800B2EE4F /* WinPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WinPopup.m; path = Source/WinPopup.m; sourceTree = "<group>"; };
+		629FD12D1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCActionFollow+CurrentOffset.h"; path = "Source/CCActionFollow+CurrentOffset.h"; sourceTree = "<group>"; };
+		629FD12E1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCActionFollow+CurrentOffset.m"; path = "Source/CCActionFollow+CurrentOffset.m"; sourceTree = "<group>"; };
+		629FD1301947B75C00B2EE4F /* Level2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level2.h; path = Source/Level2.h; sourceTree = "<group>"; };
+		629FD1311947B75C00B2EE4F /* Level2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level2.m; path = Source/Level2.m; sourceTree = "<group>"; };
+		629FD1331947B8BA00B2EE4F /* Level3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level3.h; path = Source/Level3.h; sourceTree = "<group>"; };
+		629FD1341947B8BA00B2EE4F /* Level3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level3.m; path = Source/Level3.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -77,8 +89,8 @@
 		B737896E180762440076A88C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Source/Resources/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		B73789851807631A0076A88C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = SOURCE_ROOT; };
 		B73789861807631A0076A88C /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Source/Prefix.pch; sourceTree = SOURCE_ROOT; };
-		B7378992180767190076A88C /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScene.h; path = Source/MainScene.h; sourceTree = "<group>"; };
-		B7378993180767190076A88C /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScene.m; path = Source/MainScene.m; sourceTree = "<group>"; };
+		B7378992180767190076A88C /* Level1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level1.h; path = Source/Level1.h; sourceTree = "<group>"; };
+		B7378993180767190076A88C /* Level1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level1.m; path = Source/Level1.m; sourceTree = "<group>"; };
 		B77F1B2E17B978D7009739AE /* GameArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77F1B3117B978D7009739AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B77F1B3317B978D7009739AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -127,8 +139,16 @@
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
-				B7378992180767190076A88C /* MainScene.h */,
-				B7378993180767190076A88C /* MainScene.m */,
+				B7378992180767190076A88C /* Level1.h */,
+				B7378993180767190076A88C /* Level1.m */,
+				629FD1301947B75C00B2EE4F /* Level2.h */,
+				629FD1311947B75C00B2EE4F /* Level2.m */,
+				629FD1331947B8BA00B2EE4F /* Level3.h */,
+				629FD1341947B8BA00B2EE4F /* Level3.m */,
+				629FD1261947A81800B2EE4F /* WinPopup.h */,
+				629FD1271947A81800B2EE4F /* WinPopup.m */,
+				629FD12D1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.h */,
+				629FD12E1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -322,9 +342,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629FD12F1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
-				B7378994180767190076A88C /* MainScene.m in Sources */,
+				B7378994180767190076A88C /* Level1.m in Sources */,
+				629FD1321947B75C00B2EE4F /* Level2.m in Sources */,
+				629FD1351947B8BA00B2EE4F /* Level3.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				629FD1281947A81800B2EE4F /* WinPopup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -279,8 +279,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>139</real>
-									<real>72</real>
+									<real>142.5</real>
+									<real>246</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -435,8 +435,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>171</real>
-									<real>72</real>
+									<real>174.5</real>
+									<real>246</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -589,8 +589,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>105</real>
-									<real>72</real>
+									<real>110.5</real>
+									<real>246</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -743,8 +743,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>70</real>
-									<real>72</real>
+									<real>73</real>
+									<real>246</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1093,8 +1093,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>113.99996948242188</real>
-									<real>182</real>
+									<real>114</real>
+									<real>288</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1254,8 +1254,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>209.5</real>
-									<real>145.5</real>
+									<real>113.5</real>
+									<real>123.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1408,8 +1408,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>244.5</real>
-									<real>145.5</real>
+									<real>150.5</real>
+									<real>123.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1562,8 +1562,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>279.5</real>
-									<real>145.5</real>
+									<real>185.5</real>
+									<real>123.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1716,8 +1716,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>315</real>
-									<real>145.5</real>
+									<real>224</real>
+									<real>123.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1870,8 +1870,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>350</real>
-									<real>145.5</real>
+									<real>256</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2024,8 +2024,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>385</real>
-									<real>145.5</real>
+									<real>288</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2178,8 +2178,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>420</real>
-									<real>145.5</real>
+									<real>320</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2332,8 +2332,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>455</real>
-									<real>145.5</real>
+									<real>352</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2486,8 +2486,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>490</real>
-									<real>145.5</real>
+									<real>390</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2640,8 +2640,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>525</real>
-									<real>145.5</real>
+									<real>425</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2794,8 +2794,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>560</real>
-									<real>145.5</real>
+									<real>462.5</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -2948,8 +2948,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>595</real>
-									<real>145.5</real>
+									<real>497.5</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -3102,8 +3102,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>630</real>
-									<real>145.5</real>
+									<real>529.5</real>
+									<real>26.5</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -3308,8 +3308,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>625.5</real>
-									<real>177.5</real>
+									<real>520.5</real>
+									<real>64</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -3462,12 +3462,10 @@
 						<real>0.5</real>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string>MainScene</string>
+		<string>Level2</string>
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
@@ -3536,6 +3534,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

@@ -1,16 +1,18 @@
 //
-//  MainScene.m
-//  PROJECTNAME
+//  Level1.m
+//  GameArchitecture
 //
 //  Created by Viktor on 10/10/13.
 //  Copyright (c) 2013 Apportable. All rights reserved.
 //
 
-#import "MainScene.h"
+#import "Level1.h"
+#import "WinPopup.h"
+#import "CCActionFollow+CurrentOffset.h"
 #define CP_ALLOW_PRIVATE_ACCESS 1
 #import "CCPhysics+ObjectiveChipmunk.h"
 
-@implementation MainScene {
+@implementation Level1 {
   CCSprite *_character;
   CCSprite *_flag;
   CCPhysicsNode *_physicsNode;
@@ -22,12 +24,17 @@
   _physicsNode.collisionDelegate = self;
 }
 
-- (void)onEnterTransitionDidFinish {
-  [super onEnterTransitionDidFinish];
-  
+- (void)onEnter {
+  [super onEnter];
+
   _character.physicsBody.body.body->velocity_func = playerUpdateVelocity;
   CCActionFollow *follow = [CCActionFollow actionWithTarget:_character worldBoundary:_physicsNode.boundingBox];
+  _physicsNode.position = [follow currentOffset];
   [_physicsNode runAction:follow];
+}
+
+- (void)onEnterTransitionDidFinish {
+  [super onEnterTransitionDidFinish];
   
   self.userInteractionEnabled = YES;
 }
@@ -64,9 +71,10 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
 - (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero flag:(CCNode *)flag {
   self.paused = YES;
   
-  CCNode *popup = [CCBReader load:@"WinPopup"];
+  WinPopup *popup = (WinPopup *)[CCBReader load:@"WinPopup"];
   popup.positionType = CCPositionTypeNormalized;
   popup.position = ccp(0.5, 0.5);
+  popup.nextLevelName = @"Level2";
   [self addChild:popup];
   
   return TRUE;

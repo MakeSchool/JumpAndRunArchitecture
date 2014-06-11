@@ -74,7 +74,7 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
   WinPopup *popup = (WinPopup *)[CCBReader load:@"WinPopup"];
   popup.positionType = CCPositionTypeNormalized;
   popup.position = ccp(0.5, 0.5);
-  popup.nextLevelName = @"Level3";
+  popup.nextLevelName = @"StartScene";
   [self addChild:popup];
   
   return TRUE;

@@ -12,6 +12,7 @@
 		629FD12F1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD12E1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m */; };
 		629FD1321947B75C00B2EE4F /* Level2.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD1311947B75C00B2EE4F /* Level2.m */; };
 		629FD1351947B8BA00B2EE4F /* Level3.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD1341947B8BA00B2EE4F /* Level3.m */; };
+		629FD13D1947D07900B2EE4F /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FD13C1947D07800B2EE4F /* StartScene.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -69,6 +70,8 @@
 		629FD1311947B75C00B2EE4F /* Level2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level2.m; path = Source/Level2.m; sourceTree = "<group>"; };
 		629FD1331947B8BA00B2EE4F /* Level3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level3.h; path = Source/Level3.h; sourceTree = "<group>"; };
 		629FD1341947B8BA00B2EE4F /* Level3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level3.m; path = Source/Level3.m; sourceTree = "<group>"; };
+		629FD13B1947D07800B2EE4F /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartScene.h; path = Source/StartScene.h; sourceTree = "<group>"; };
+		629FD13C1947D07800B2EE4F /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartScene.m; path = Source/StartScene.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				629FD1271947A81800B2EE4F /* WinPopup.m */,
 				629FD12D1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.h */,
 				629FD12E1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m */,
+				629FD13B1947D07800B2EE4F /* StartScene.h */,
+				629FD13C1947D07800B2EE4F /* StartScene.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				629FD12F1947AD1500B2EE4F /* CCActionFollow+CurrentOffset.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* Level1.m in Sources */,
+				629FD13D1947D07900B2EE4F /* StartScene.m in Sources */,
 				629FD1321947B75C00B2EE4F /* Level2.m in Sources */,
 				629FD1351947B8BA00B2EE4F /* Level3.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,

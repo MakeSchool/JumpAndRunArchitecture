@@ -18,13 +18,14 @@ static NSString *selectedLevel = @"Level1";
 
 @implementation Gameplay {
   CCSprite *_character;
-  CCSprite *_flag;
   CCPhysicsNode *_physicsNode;
   CCNode *_levelNode;
   Level *_loadedLevel;
   CCNode *_startPosition;
   BOOL _jumped;
 }
+
+#pragma mark - Node Lifecycle
 
 - (void)didLoadFromCCB {
   _physicsNode.collisionDelegate = self;
@@ -48,6 +49,26 @@ static NSString *selectedLevel = @"Level1";
   self.userInteractionEnabled = YES;
 }
 
+#pragma mark - Level completion
+
+- (void)loadNextLevel {
+  selectedLevel = _loadedLevel.nextLevelName;
+  
+  CCScene *nextScene = nil;
+  
+  if (selectedLevel) {
+    nextScene = [CCBReader loadAsScene:@"Gameplay"];
+  } else {
+    selectedLevel = kFirstLevel;
+    nextScene = [CCBReader loadAsScene:@"StartScene"];
+  }
+  
+  CCTransition *transition = [CCTransition transitionFadeWithDuration:0.8f];
+  [[CCDirector sharedDirector] presentScene:nextScene withTransition:transition];
+}
+
+#pragma mark - Touch Handling
+
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
   [_character.physicsBody.chipmunkObjects[0] eachArbiter:^(cpArbiter *arbiter) {
     if (!_jumped) {
@@ -57,6 +78,8 @@ static NSString *selectedLevel = @"Level1";
     }
   }];
 }
+
+#pragma mark - Player Movement
 
 - (void)resetJump {
   _jumped = FALSE;
@@ -77,6 +100,8 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
 	body->v.x = 40.f;
 }
 
+#pragma mark - Collision Handling
+
 - (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero flag:(CCNode *)flag {
   self.paused = YES;
   
@@ -86,22 +111,6 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
   [self addChild:popup];
   
   return TRUE;
-}
-
-- (void)loadNextLevel {
-  selectedLevel = _loadedLevel.nextLevelName;
-
-  CCScene *nextScene = nil;
-  
-  if (selectedLevel) {
-    nextScene = [CCBReader loadAsScene:@"Gameplay"];
-  } else {
-    selectedLevel = kFirstLevel;
-    nextScene = [CCBReader loadAsScene:@"StartScene"];
-  }
-  
-  CCTransition *transition = [CCTransition transitionFadeWithDuration:0.8f];
-  [[CCDirector sharedDirector] presentScene:nextScene withTransition:transition];
 }
 
 @end

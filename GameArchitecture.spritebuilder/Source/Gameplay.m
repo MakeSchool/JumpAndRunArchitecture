@@ -6,22 +6,23 @@
 //  Copyright (c) 2013 Apportable. All rights reserved.
 //
 
-#import "Level1.h"
+#import "Gameplay.h"
 #import "WinPopup.h"
 #import "CCActionFollow+CurrentOffset.h"
 #define CP_ALLOW_PRIVATE_ACCESS 1
 #import "CCPhysics+ObjectiveChipmunk.h"
 
-@implementation Level1 {
+@implementation Gameplay {
   CCSprite *_character;
   CCSprite *_flag;
   CCPhysicsNode *_physicsNode;
+  CCNode *_levelNode;
   BOOL _jumped;
 }
 
 - (void)didLoadFromCCB {
-  _flag.physicsBody.sensor = YES;
   _physicsNode.collisionDelegate = self;
+  [_levelNode addChild:[CCBReader load:@"Level1"]];
 }
 
 - (void)onEnter {

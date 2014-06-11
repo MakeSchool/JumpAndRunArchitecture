@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>3</integer>
+	<integer>6</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -175,296 +175,471 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>1</integer>
-				<key>animatedProperties</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>spriteFrame</key>
-						<dict>
-							<key>keyframes</key>
-							<array>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.0</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk01.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.033333335071802139</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk02.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.066666670143604279</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk03.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.10000000149011612</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk04.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.13333334028720856</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk05.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.1666666716337204</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk06.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.20000000298023224</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk06.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.23333333432674408</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk08.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.26666668057441711</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk09.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>spriteFrame</string>
-									<key>time</key>
-									<real>0.30000001192092896</real>
-									<key>type</key>
-									<integer>7</integer>
-									<key>value</key>
-									<array>
-										<string>ArchitectureAssets/p1_walk10.png</string>
-										<string>Use regular file</string>
-									</array>
-								</dict>
-							</array>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>type</key>
-							<integer>7</integer>
-						</dict>
-					</dict>
-				</dict>
+				<integer>3</integer>
 				<key>baseClass</key>
-				<string>CCSprite</string>
+				<string>CCPhysicsNode</string>
 				<key>children</key>
-				<array/>
+				<array>
+					<dict>
+						<key>UUID</key>
+						<integer>1</integer>
+						<key>animatedProperties</key>
+						<dict>
+							<key>0</key>
+							<dict>
+								<key>spriteFrame</key>
+								<dict>
+									<key>keyframes</key>
+									<array>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.0</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk01.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.033333335071802139</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk02.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.066666670143604279</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk03.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.10000000149011612</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk04.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.13333334028720856</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk05.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.1666666716337204</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk06.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.20000000298023224</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk06.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.23333333432674408</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk08.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.26666668057441711</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk09.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+										<dict>
+											<key>easing</key>
+											<dict>
+												<key>type</key>
+												<integer>0</integer>
+											</dict>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>time</key>
+											<real>0.30000001192092896</real>
+											<key>type</key>
+											<integer>7</integer>
+											<key>value</key>
+											<array>
+												<string>ArchitectureAssets/p1_walk10.png</string>
+												<string>Use regular file</string>
+											</array>
+										</dict>
+									</array>
+									<key>name</key>
+									<string>spriteFrame</string>
+									<key>type</key>
+									<integer>7</integer>
+								</dict>
+							</dict>
+						</dict>
+						<key>baseClass</key>
+						<string>CCSprite</string>
+						<key>children</key>
+						<array/>
+						<key>customClass</key>
+						<string></string>
+						<key>displayName</key>
+						<string>CCSprite</string>
+						<key>memberVarAssignmentName</key>
+						<string>_character</string>
+						<key>memberVarAssignmentType</key>
+						<integer>1</integer>
+						<key>physicsBody</key>
+						<dict>
+							<key>affectedByGravity</key>
+							<true/>
+							<key>allowsRotation</key>
+							<false/>
+							<key>bodyShape</key>
+							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string>hero</string>
+							<key>cornerRadius</key>
+							<real>0.0</real>
+							<key>density</key>
+							<real>5</real>
+							<key>dynamic</key>
+							<true/>
+							<key>elasticity</key>
+							<real>0.30000001192092896</real>
+							<key>friction</key>
+							<real>0.30000001192092896</real>
+							<key>points</key>
+							<array>
+								<array>
+									<real>13.986993789672852</real>
+									<real>1.6953573226928711</real>
+								</array>
+								<array>
+									<real>2.6873276233673096</real>
+									<real>12.947928428649902</real>
+								</array>
+								<array>
+									<real>0.0</real>
+									<real>48</real>
+								</array>
+								<array>
+									<real>36</real>
+									<real>48</real>
+								</array>
+								<array>
+									<real>33.631900787353516</real>
+									<real>14.555438995361328</real>
+								</array>
+								<array>
+									<real>22.407585144042969</real>
+									<real>1.2934798002243042</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>22.407585144042969</real>
+										<real>1.2934798002243042</real>
+									</array>
+									<array>
+										<real>33.631900787353516</real>
+										<real>14.555438995361328</real>
+									</array>
+									<array>
+										<real>36</real>
+										<real>48</real>
+									</array>
+									<array>
+										<real>0.0</real>
+										<real>48</real>
+									</array>
+									<array>
+										<real>2.6873276233673096</real>
+										<real>12.947928428649902</real>
+									</array>
+									<array>
+										<real>13.986993789672852</real>
+										<real>1.6953573226928711</real>
+									</array>
+								</array>
+							</array>
+						</dict>
+						<key>properties</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>name</string>
+								<key>type</key>
+								<string>StringSimple</string>
+								<key>value</key>
+								<string></string>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>87</real>
+									<real>244</real>
+									<integer>0</integer>
+									<integer>0</integer>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>anchorPoint</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>0.5</real>
+									<real>0.5</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>scale</string>
+								<key>type</key>
+								<string>ScaleLock</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<false/>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>baseValue</key>
+								<array>
+									<string></string>
+									<string>Use regular file</string>
+								</array>
+								<key>name</key>
+								<string>spriteFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string>ArchitectureAssets/p1_walk10.png</string>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>color</string>
+								<key>type</key>
+								<string>Color3</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<real>1</real>
+									<real>1</real>
+								</array>
+							</dict>
+						</array>
+						<key>seqExpanded</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>UUID</key>
+						<integer>5</integer>
+						<key>baseClass</key>
+						<string>CCNode</string>
+						<key>children</key>
+						<array/>
+						<key>customClass</key>
+						<string></string>
+						<key>displayName</key>
+						<string>CCNode</string>
+						<key>memberVarAssignmentName</key>
+						<string>_levelNode</string>
+						<key>memberVarAssignmentType</key>
+						<integer>1</integer>
+						<key>properties</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>name</string>
+								<key>type</key>
+								<string>StringSimple</string>
+								<key>value</key>
+								<string></string>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+									<integer>0</integer>
+									<integer>0</integer>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>contentSize</string>
+								<key>type</key>
+								<string>Size</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+									<integer>0</integer>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>anchorPoint</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>scale</string>
+								<key>type</key>
+								<string>ScaleLock</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<false/>
+									<integer>0</integer>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCSprite</string>
+				<string>CCPhysicsNode</string>
 				<key>memberVarAssignmentName</key>
-				<string>_character</string>
+				<string>_physicsNode</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
-				<key>physicsBody</key>
-				<dict>
-					<key>affectedByGravity</key>
-					<true/>
-					<key>allowsRotation</key>
-					<false/>
-					<key>bodyShape</key>
-					<integer>0</integer>
-					<key>collisionCategories</key>
-					<array/>
-					<key>collisionMask</key>
-					<array/>
-					<key>collisionType</key>
-					<string>hero</string>
-					<key>cornerRadius</key>
-					<real>0.0</real>
-					<key>density</key>
-					<real>5</real>
-					<key>dynamic</key>
-					<true/>
-					<key>elasticity</key>
-					<real>0.30000001192092896</real>
-					<key>friction</key>
-					<real>0.30000001192092896</real>
-					<key>points</key>
-					<array>
-						<array>
-							<real>13.986993789672852</real>
-							<real>1.6953573226928711</real>
-						</array>
-						<array>
-							<real>2.6873276233673096</real>
-							<real>12.947928428649902</real>
-						</array>
-						<array>
-							<real>0.0</real>
-							<real>48</real>
-						</array>
-						<array>
-							<real>36</real>
-							<real>48</real>
-						</array>
-						<array>
-							<real>33.631900787353516</real>
-							<real>14.555438995361328</real>
-						</array>
-						<array>
-							<real>22.407585144042969</real>
-							<real>1.2934798002243042</real>
-						</array>
-					</array>
-					<key>polygons</key>
-					<array>
-						<array>
-							<array>
-								<real>22.407585144042969</real>
-								<real>1.2934798002243042</real>
-							</array>
-							<array>
-								<real>33.631900787353516</real>
-								<real>14.555438995361328</real>
-							</array>
-							<array>
-								<real>36</real>
-								<real>48</real>
-							</array>
-							<array>
-								<real>0.0</real>
-								<real>48</real>
-							</array>
-							<array>
-								<real>2.6873276233673096</real>
-								<real>12.947928428649902</real>
-							</array>
-							<array>
-								<real>13.986993789672852</real>
-								<real>1.6953573226928711</real>
-							</array>
-						</array>
-					</array>
-				</dict>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -482,11 +657,24 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>87</real>
-							<real>244</real>
+							<real>0.0</real>
+							<real>0.0</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>contentSize</string>
+						<key>type</key>
+						<string>Size</string>
+						<key>value</key>
+						<array>
+							<real>1704</real>
+							<real>1</real>
+							<integer>0</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -496,8 +684,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.0</real>
+							<real>0.0</real>
 						</array>
 					</dict>
 					<dict>
@@ -514,41 +702,29 @@
 						</array>
 					</dict>
 					<dict>
-						<key>baseValue</key>
-						<array>
-							<string></string>
-							<string>Use regular file</string>
-						</array>
 						<key>name</key>
-						<string>spriteFrame</string>
+						<string>gravity</string>
 						<key>type</key>
-						<string>SpriteFrame</string>
+						<string>Point</string>
 						<key>value</key>
 						<array>
-							<string></string>
-							<string>ArchitectureAssets/p1_walk10.png</string>
+							<real>0.0</real>
+							<real>-200</real>
 						</array>
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>color</string>
+						<string>sleepTimeThreshold</string>
 						<key>type</key>
-						<string>Color3</string>
+						<string>Float</string>
 						<key>value</key>
-						<array>
-							<real>1</real>
-							<real>1</real>
-							<real>1</real>
-							<real>1</real>
-						</array>
+						<real>0.5</real>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string></string>
+		<string>Gameplay</string>
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
@@ -678,7 +854,7 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>length</key>
 			<real>0.3333333432674408</real>
 			<key>name</key>
@@ -686,7 +862,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.26666668057441711</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

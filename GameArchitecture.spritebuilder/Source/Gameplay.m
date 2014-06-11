@@ -38,7 +38,7 @@ static NSString *selectedLevel = @"Level1";
   [super onEnter];
 
   _character.physicsBody.body.body->velocity_func = playerUpdateVelocity;
-  CCActionFollow *follow = [CCActionFollow actionWithTarget:_character worldBoundary:[_levelNode.children[0] boundingBox]];
+  CCActionFollow *follow = [CCActionFollow actionWithTarget:_character worldBoundary:[_loadedLevel boundingBox]];
   _physicsNode.position = [follow currentOffset];
   [_physicsNode runAction:follow];
 }
@@ -111,6 +111,22 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
   [self addChild:popup];
   
   return TRUE;
+}
+
+#pragma mark - Update
+
+- (void)update:(CCTime)delta {
+  if (CGRectGetMaxY([_character boundingBox]) <   CGRectGetMinY([_loadedLevel boundingBox])) {
+    [self gameOver];
+  }
+}
+
+#pragma mark - Game Over
+
+- (void)gameOver {
+  CCScene *restartScene = [CCBReader loadAsScene:@"Gameplay"];
+  CCTransition *transition = [CCTransition transitionFadeWithDuration:0.8f];
+  [[CCDirector sharedDirector] presentScene:restartScene withTransition:transition];
 }
 
 @end

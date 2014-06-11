@@ -416,7 +416,7 @@
 						<key>value</key>
 						<array>
 							<string>loadNextLevel</string>
-							<integer>1</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>

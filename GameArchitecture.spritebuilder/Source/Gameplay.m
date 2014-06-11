@@ -11,25 +11,33 @@
 #import "CCActionFollow+CurrentOffset.h"
 #define CP_ALLOW_PRIVATE_ACCESS 1
 #import "CCPhysics+ObjectiveChipmunk.h"
+#import "Level.h"
+
+static NSString * const kFirstLevel = @"Level1";
+static NSString *selectedLevel = @"Level1";
 
 @implementation Gameplay {
   CCSprite *_character;
   CCSprite *_flag;
   CCPhysicsNode *_physicsNode;
   CCNode *_levelNode;
+  Level *_loadedLevel;
+  CCNode *_startPosition;
   BOOL _jumped;
 }
 
 - (void)didLoadFromCCB {
   _physicsNode.collisionDelegate = self;
-  [_levelNode addChild:[CCBReader load:@"Level1"]];
+  _loadedLevel = (Level *) [CCBReader load:selectedLevel owner:self];
+  _character.position = _startPosition.position;
+  [_levelNode addChild:_loadedLevel];
 }
 
 - (void)onEnter {
   [super onEnter];
 
   _character.physicsBody.body.body->velocity_func = playerUpdateVelocity;
-  CCActionFollow *follow = [CCActionFollow actionWithTarget:_character worldBoundary:_physicsNode.boundingBox];
+  CCActionFollow *follow = [CCActionFollow actionWithTarget:_character worldBoundary:[_levelNode.children[0] boundingBox]];
   _physicsNode.position = [follow currentOffset];
   [_physicsNode runAction:follow];
 }
@@ -72,13 +80,28 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
 - (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero flag:(CCNode *)flag {
   self.paused = YES;
   
-  WinPopup *popup = (WinPopup *)[CCBReader load:@"WinPopup"];
+  WinPopup *popup = (WinPopup *)[CCBReader load:@"WinPopup" owner:self];
   popup.positionType = CCPositionTypeNormalized;
   popup.position = ccp(0.5, 0.5);
-  popup.nextLevelName = @"Level2";
   [self addChild:popup];
   
   return TRUE;
+}
+
+- (void)loadNextLevel {
+  selectedLevel = _loadedLevel.nextLevelName;
+
+  CCScene *nextScene = nil;
+  
+  if (selectedLevel) {
+    nextScene = [CCBReader loadAsScene:@"Gameplay"];
+  } else {
+    selectedLevel = kFirstLevel;
+    nextScene = [CCBReader loadAsScene:@"StartScene"];
+  }
+  
+  CCTransition *transition = [CCTransition transitionFadeWithDuration:0.8f];
+  [[CCDirector sharedDirector] presentScene:nextScene withTransition:transition];
 }
 
 @end

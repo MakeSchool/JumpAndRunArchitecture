@@ -10,10 +10,4 @@
 
 @implementation WinPopup
 
-- (void)loadNextLevel {
-  CCScene *nextLevel = [CCBReader loadAsScene:self.nextLevelName];
-  CCTransition *transition = [CCTransition transitionFadeWithDuration:0.8f];
-  [[CCDirector sharedDirector] presentScene:nextLevel withTransition:transition];
-}
-
 @end

@@ -10,6 +10,4 @@
 
 @interface WinPopup : CCNode
 
-@property (nonatomic, copy) NSString *nextLevelName;
-
 @end

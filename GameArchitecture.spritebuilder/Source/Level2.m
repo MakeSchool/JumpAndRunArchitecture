@@ -80,5 +80,17 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
   return TRUE;
 }
 
+- (void)update:(CCTime)delta {
+  if (CGRectGetMaxY([_character boundingBox]) <  CGRectGetMinY(_physicsNode.boundingBox)) {
+    [self gameOver];
+  }
+}
+
+- (void)gameOver {
+  CCScene *restartScene = [CCBReader loadAsScene:@"Level2"];
+  CCTransition *transition = [CCTransition transitionFadeWithDuration:0.8f];
+  [[CCDirector sharedDirector] presentScene:restartScene withTransition:transition];
+}
+
 @end
 

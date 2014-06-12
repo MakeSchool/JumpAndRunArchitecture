@@ -11,5 +11,6 @@
 @interface Level : CCNode
 
 @property (nonatomic, copy) NSString *nextLevelName;
+@property (nonatomic, assign) int levelSpeed;
 
 @end

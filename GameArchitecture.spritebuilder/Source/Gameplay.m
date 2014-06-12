@@ -15,6 +15,7 @@
 
 static NSString * const kFirstLevel = @"Level1";
 static NSString *selectedLevel = @"Level1";
+static int levelSpeed = 0;
 
 @implementation Gameplay {
   CCSprite *_character;
@@ -22,7 +23,10 @@ static NSString *selectedLevel = @"Level1";
   CCNode *_levelNode;
   Level *_loadedLevel;
   CCNode *_startPosition;
+  CCLabelTTF *_scoreLabel;
   BOOL _jumped;
+  
+  int _score;
 }
 
 #pragma mark - Node Lifecycle
@@ -32,6 +36,8 @@ static NSString *selectedLevel = @"Level1";
   _loadedLevel = (Level *) [CCBReader load:selectedLevel owner:self];
   _character.position = _startPosition.position;
   [_levelNode addChild:_loadedLevel];
+  
+  levelSpeed = _loadedLevel.levelSpeed;
 }
 
 - (void)onEnter {
@@ -72,7 +78,7 @@ static NSString *selectedLevel = @"Level1";
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
   [_character.physicsBody.chipmunkObjects[0] eachArbiter:^(cpArbiter *arbiter) {
     if (!_jumped) {
-      [_character.physicsBody applyImpulse:ccp(0, 2000)];
+      [_character.physicsBody applyImpulse:ccp(0, 1600)];
       _jumped = TRUE;
       [self performSelector:@selector(resetJump) withObject:nil afterDelay:0.3f];
     }
@@ -97,7 +103,7 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
 	body->f = cpvzero;
 	body->t = 0.0f;
   
-	body->v.x = 40.f;
+	body->v.x = levelSpeed;
 }
 
 #pragma mark - Collision Handling
@@ -110,7 +116,15 @@ playerUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
   popup.position = ccp(0.5, 0.5);
   [self addChild:popup];
   
-  return TRUE;
+  return YES;
+}
+
+- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero star:(CCNode *)star {
+  [star removeFromParent];
+  _score++;
+  _scoreLabel.string = [NSString stringWithFormat:@"%d", _score];
+  
+  return YES;
 }
 
 #pragma mark - Update

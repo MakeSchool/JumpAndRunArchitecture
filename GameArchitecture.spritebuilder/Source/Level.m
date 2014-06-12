@@ -10,6 +10,4 @@
 
 @implementation Level
 
-
-
 @end

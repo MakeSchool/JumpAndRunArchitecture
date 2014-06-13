@@ -160,6 +160,20 @@
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>
+		<key>ArchitectureUpdateAssets</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>MenuAssets</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>Sprites</key>
 		<dict/>
 		<key>ccbResources</key>

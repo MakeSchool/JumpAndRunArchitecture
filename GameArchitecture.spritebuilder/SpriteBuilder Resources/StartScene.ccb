@@ -160,11 +160,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.019999999552965164</real>
-							<real>0.029999999329447746</real>
+							<real>10</real>
+							<real>10</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -249,11 +249,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.98000001907348633</real>
-							<real>0.029999999329447746</real>
+							<real>10</real>
+							<real>10</real>
+							<integer>3</integer>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -405,7 +405,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>StartGameButton</string>
+				<string>button_startGame</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>

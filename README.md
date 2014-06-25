@@ -13,6 +13,6 @@ Menu Fixes:
 
 - Make BG anchor point (0.5, 0.5), BG position from points to percentage, (50%, 48%)
 - Logo anchor point (0.5, 0.5), position from points to percentage, (50%, 85%)
-- AmazingGamesInc anchor point to (0, 0), position from points to percentage, (2%, 3%)
-- Options anchor point to (1, 0), position from UI points to percentage, (98%, 3%)
+- AmazingGamesInc (button_about) anchor point to (0, 0), position in points, (10, 10)
+- Options (button_options) anchor point to (1, 0), reference corner bottom right, position from UI points to points, (10, 10)
 - Start button position to percentage, (50%, 44%)

@@ -14,13 +14,11 @@
 
 @implementation Level1 {
   CCSprite *_character;
-  CCSprite *_flag;
   CCPhysicsNode *_physicsNode;
   BOOL _jumped;
 }
 
 - (void)didLoadFromCCB {
-  _flag.physicsBody.sensor = YES;
   _physicsNode.collisionDelegate = self;
 }
 

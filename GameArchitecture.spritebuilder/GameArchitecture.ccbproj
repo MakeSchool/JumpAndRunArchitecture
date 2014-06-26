@@ -65,7 +65,7 @@
 	<key>publishToZipFile</key>
 	<false/>
 	<key>resourceAutoScaleFactor</key>
-	<integer>4</integer>
+	<integer>2</integer>
 	<key>resourcePaths</key>
 	<array>
 		<dict>
@@ -157,6 +157,27 @@
 		</dict>
 		<key>ArchitectureAssets/p1_walk11.png</key>
 		<dict>
+			<key>scaleFrom</key>
+			<integer>2</integer>
+		</dict>
+		<key>ArchitectureUpdateAssets/flagBlue.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>2</integer>
+		</dict>
+		<key>ArchitectureUpdateAssets/flagBlue2.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>2</integer>
+		</dict>
+		<key>ArchitectureUpdateAssets/star.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
 			<key>scaleFrom</key>
 			<integer>2</integer>
 		</dict>

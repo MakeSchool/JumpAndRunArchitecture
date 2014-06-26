@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>ArchitectureUpdateAssets/flagBlue.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{139, 1}, {67, 70}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {67, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/flagBlue2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{138, 184}, {67, 70}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {67, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{70, 189}, {66, 91}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 1}, {66, 91}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{69, 377}, {66, 91}}</string>
+			<key>offset</key>
+			<string>{2, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 0}, {66, 91}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{71, 1}, {66, 90}}</string>
+			<key>offset</key>
+			<string>{2, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{4, 0}, {66, 90}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{71, 93}, {69, 89}}</string>
+			<key>offset</key>
+			<string>{0, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 0}, {69, 89}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{70, 282}, {70, 90}}</string>
+			<key>offset</key>
+			<string>{0, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 90}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk06.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{137, 374}, {69, 90}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {69, 90}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk07.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 95}, {68, 92}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {68, 92}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk08.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {68, 92}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 2}, {68, 92}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk09.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 283}, {67, 92}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {67, 92}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 189}, {67, 92}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 2}, {67, 92}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/p2_walk11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 377}, {66, 92}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2, 2}, {66, 92}}</string>
+			<key>sourceSize</key>
+			<string>{70, 94}</string>
+		</dict>
+		<key>ArchitectureUpdateAssets/star.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 471}, {34, 31}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {34, 31}}</string>
+			<key>sourceSize</key>
+			<string>{34, 31}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>textureFileName</key>
+		<string>ArchitectureUpdateAssets.png</string>
+	</dict>
+</dict>
+</plist>

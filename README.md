@@ -26,8 +26,6 @@ Here are the fixes applied:
 - Create a character position node to mark the starting point in each level. Create a code connection of this node to the owner of the ccb file. Load level with owner `self` in gameplay, to access this start position
 - Create a class variable that stores the current level, when level complete, set string to next level (not a high tech solution but absolutely valid for this game)
 - Make popup call `nextLevel` on owner and implement that in Gameplay and load popup with owner:self in gameplay
-=======
-- Make popup call `nextLevel` on owner and implement that in Gameplay and load popup with owner:self in gameplay
 
 Menu Fixes:
 

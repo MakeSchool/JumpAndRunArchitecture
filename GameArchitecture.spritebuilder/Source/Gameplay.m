@@ -22,7 +22,6 @@ static int levelSpeed = 0;
   CCPhysicsNode *_physicsNode;
   CCNode *_levelNode;
   Level *_loadedLevel;
-  CCNode *_startPosition;
   CCLabelTTF *_scoreLabel;
   BOOL _jumped;
   
@@ -34,7 +33,6 @@ static int levelSpeed = 0;
 - (void)didLoadFromCCB {
   _physicsNode.collisionDelegate = self;
   _loadedLevel = (Level *) [CCBReader load:selectedLevel owner:self];
-  _character.position = _startPosition.position;
   [_levelNode addChild:_loadedLevel];
   
   levelSpeed = _loadedLevel.levelSpeed;

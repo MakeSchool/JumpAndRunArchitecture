@@ -11,7 +11,7 @@
 @implementation StartScene
 
 - (void)startGame {
-  CCScene *firstLevel = [CCBReader loadAsScene:@"Level1"];
+  CCScene *firstLevel = [CCBReader loadAsScene:@"Gameplay"];
   CCTransition *transition = [CCTransition transitionFadeWithDuration:0.8f];
   [[CCDirector sharedDirector] presentScene:firstLevel withTransition:transition];
 }

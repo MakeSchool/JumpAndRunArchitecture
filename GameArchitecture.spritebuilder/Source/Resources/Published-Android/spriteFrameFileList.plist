@@ -9,6 +9,7 @@
 	</dict>
 	<key>spriteFrameFiles</key>
 	<array>
+		<string>NewAssets.plist</string>
 		<string>ArchitectureAssets.plist</string>
 		<string>MenuAssets.plist</string>
 	</array>

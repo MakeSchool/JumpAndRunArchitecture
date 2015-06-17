@@ -37,7 +37,8 @@
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-  [_character.physicsBody.chipmunkObjects[0] eachArbiter:^(cpArbiter *arbiter) {
+  // only runs if character is colliding with another physics object (eg. ground)
+  [_character.physicsBody eachCollisionPair:^(CCPhysicsCollisionPair *pair) {
     if (!_jumped) {
       [_character.physicsBody applyImpulse:ccp(0, 2000)];
       _jumped = TRUE;
@@ -62,7 +63,7 @@
   popup.positionType = CCPositionTypeNormalized;
   popup.position = ccp(0.5, 0.5);
   popup.nextLevelName = @"Level3";
-  [self addChild:popup];
+  [self.parent addChild:popup];
   
   return TRUE;
 }
